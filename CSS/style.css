@@ -69,6 +69,11 @@ body{
 	font-size: 16px; 
 	color: #838994; 
 	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .logo{
+	height: 4.375rem;
 }
 
 .top-navigation > .content{
@@ -88,6 +93,12 @@ body{
 	padding: 0px 15px;
 }
 
-.top-navigation .logo{
-	height: 4.375rem;
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 600;
+}
+
+.top-navigation .links li:hover {
+	cursor: pointer;
+	color: #333333;
 }
