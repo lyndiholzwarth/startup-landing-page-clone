@@ -55,3 +55,43 @@ body{
 div {
 	border: 1px solid Chocolate;
 }
+/*here is evertyhing I've added on my own*/
+
+body{
+	font-family: "Roboto", sans-serif;
+}
+
+.top-nav{
+	background-color: #FFF;
+	width:100%;
+	position: fixed;
+	display: block;
+	float:right;
+}
+
+.top-nav > .content{
+	width: 970px;
+	height:70px;
+	margin: 0 auto;
+}
+
+.content{
+	padding: 15px;
+	display: inline-block;
+}
+
+.links{
+	list-style:none;
+	float:right;
+	color:#838994;
+	display: inline;
+	
+}
+
+.active{
+
+}
+
+.logo{
+	margin-left:14px;
+}
