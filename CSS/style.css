@@ -78,8 +78,16 @@ body{
 	padding: 0px 15px;
 }
 
-.top-navigation > .content > .links{
+.top-navigation .links{
 	float:right;
+}
+
+.top-navigation .links li{
+	display:inline-block;
+}
+
+.content{
+
 }
 
 .active{
