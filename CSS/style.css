@@ -109,7 +109,7 @@ div {
 
 /*Introduction*/
 body{
-		font-family: 'Roboto', sans-serif; 
+	font-family: 'Roboto', sans-serif; 
 }
 
 .introduction{
@@ -166,6 +166,7 @@ button:hover{
 /*content*/
 .cases{
 	background-color: #fff;
+	overflow: hidden;
 	padding-bottom: 5rem;
 }
 
@@ -204,6 +205,7 @@ button:hover{
 	border-top: 1px solid #eaebec;
 	margin: 1.313rem 0;
 }
+
 hr{
 	display: block;
 }
@@ -256,5 +258,5 @@ hr{
 .social .copy{
 	font-size: 0.9rem;
 	font-weight: 300;
-	color: #838994;
+	color: #838;
 }
